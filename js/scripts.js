@@ -8,15 +8,15 @@ $(document).ready(function(){
     var droid = $("input:radio[name=droid]:checked").val();
 
     //backend functions begin
-
-    if (pc ==="0" && company === "0" && art === "1" && fb == "0" || fb === "1" && droid === "1"){
+    debugger;
+    if (pc ==="0" && company === "0" || company ==="1" && art === "1" && fb === "0" || fb === "1" && droid === "1"){
       $("#java").hide();
       $("#ruby").hide();
       $("#php").hide();
       $("#css").hide();
       $("#c").fadeIn();
     }
-    else if (pc === "1" && company === "1" && fb === "1"){
+    else if (pc === "1" && company === "1" && art === "1" && fb === "1"){
       $("#java").hide();
       $("#php").hide();
       $("#c").hide();
@@ -30,14 +30,14 @@ $(document).ready(function(){
       $("#c").hide();
       $("#css").fadeIn();
     }
-    else if (fb === "0"){
+    else if (fb === "0" && art === "1"){
       $("#java").hide();
       $("#ruby").hide();
       $("#c").hide();
       $("#css").hide();
       $("#php").fadeIn();
     }
-    else if (droid === "0"){
+    else if (droid === "0" && art === "1"){
       $("#ruby").hide();
       $("#c").hide();
       $("#css").hide();
