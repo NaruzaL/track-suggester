@@ -1,5 +1,7 @@
 # Epicodus Track Suggester
 
+#### 2nd week solo project, 4.28.2017
+
 #### By Pete Lazuran
 
 ## Description
@@ -8,22 +10,28 @@
 
 ## Setup/Installation Requirements
 
-* Navigate to
+* Enter the Terminal and navigate to where you wish the file to be copied.
+* Enter the command "git clone https://github.com/NaruzaL/track-suggester.git" into the Terminal
+* Open the file in a text editor (if you don't have a text editor you can download Atom for free).
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+##### Currently some issues with the if/else statements in the scripts.js file. Certain button selections will result in incorrect suggestions.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+##### Questions, suggestions or corrections or improvements can be sent to pdlazuran@gmail.com.
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* jQuery
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+##### This software is licensed under the MIT license.
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2017 Pete Lazuran
