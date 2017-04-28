@@ -23,21 +23,21 @@ $(document).ready(function(){
       $("#css").hide();
       $("#ruby").fadeIn();
     }
-    else if (art === "0" && company === "0" || company === "1" ){
+    else if (art === "0" && company === "0" || company === "1"){
       $("#java").hide();
       $("#ruby").hide();
       $("#php").hide();
       $("#c").hide();
       $("#css").fadeIn();
     }
-    else if (fb === "0" ){
+    else if (fb === "0"){
       $("#java").hide();
       $("#ruby").hide();
       $("#c").hide();
       $("#css").hide();
       $("#php").fadeIn();
     }
-    else if (droid === "0" ){
+    else if (droid === "0"){
       $("#ruby").hide();
       $("#c").hide();
       $("#css").hide();
