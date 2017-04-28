@@ -8,7 +8,7 @@ $(document).ready(function(){
     var droid = $("input:radio[name=droid]:checked").val();
 
     //backend functions begin
-    debugger;
+
     if (pc ==="0" && company === "0" || company ==="1" && art === "1" && fb === "0" || fb === "1" && droid === "1"){
       $("#java").hide();
       $("#ruby").hide();

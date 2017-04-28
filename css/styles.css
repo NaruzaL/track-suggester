@@ -1,3 +1,7 @@
+body {
+  background-color: #D8DDAD;
+}
+
 .jumbotron {
   background-color: #E35F1E;
 }
@@ -9,7 +13,7 @@ h1 {
 }
 
 button {
-  background-color: #97E9EB ;
+  background-color: #155DD1;
   color: black;
 }
 
