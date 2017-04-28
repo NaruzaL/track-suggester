@@ -1,19 +1,41 @@
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+button {
+  background-color: red;
+  color: black;
+}
+
 #c {
   display: none;
+  background-color: lightblue;
+  margin: 30px;
 }
 
 #css {
   display: none;
+  background-color: pink;
+  margin: 30px;
 }
 
 #php {
   display: none;
+  background-color: navy;
+  color: white;
+  margin: 30px;
 }
 
 #ruby {
   display: none;
+  background-color: red;
+  color: white;
+  margin: 30px;
 }
 
 #java {
   display: none;
+  background-color: grey;
+  margin: 30px;
 }
