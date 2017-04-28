@@ -16,7 +16,7 @@ $(document).ready(function(){
       $("#css").hide();
       $("#c").fadeIn();
     }
-    else if (pc === "1" && company === "1"){
+    else if (pc === "1" && company === "1" && fb === "1"){
       $("#java").hide();
       $("#php").hide();
       $("#c").hide();
