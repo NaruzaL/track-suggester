@@ -14,35 +14,35 @@ $(document).ready(function(){
       $("#ruby").hide();
       $("#php").hide();
       $("#css").hide();
-      $("#c").show();
+      $("#c").fadeIn();
     }
     else if (pc === "1" && company === "1"){
       $("#java").hide();
       $("#php").hide();
       $("#c").hide();
       $("#css").hide();
-      $("#ruby").show();
+      $("#ruby").fadeIn();
     }
     else if (art === "0" && company === "0" || company === "1" ){
       $("#java").hide();
       $("#ruby").hide();
       $("#php").hide();
       $("#c").hide();
-      $("#css").show();
+      $("#css").fadeIn();
     }
     else if (fb === "0" ){
       $("#java").hide();
       $("#ruby").hide();
       $("#c").hide();
       $("#css").hide();
-      $("#php").show();
+      $("#php").fadeIn();
     }
     else if (droid === "0" ){
       $("#ruby").hide();
       $("#c").hide();
       $("#css").hide();
       $("#php").hide();
-      $("#java").show();
+      $("#java").fadeIn();
     }
 
 
